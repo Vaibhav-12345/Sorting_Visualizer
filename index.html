@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bubble Sort Visualizer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .parentDiv {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border: 2px solid black;
+      height: 400px; /* Adjust the height of the container as needed */
+    }
+
+    .bar {
+      width: 20px;
+      height: 200px;
+      background-color: #4286f4;
+      margin: 0 23px;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: rgb(107,11,196);
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .startbtn {
+      border: 2px solid;
+      background-color: rgb(107,11,196);
+      margin: 12px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bubble Sort Visualizer</h1>
+  
+    <div class="row justify-content-center">
+      <div id="barsContainer" class="parentDiv col-12"></div>
+    </div>
+  
+    <div class="row justify-content-center">
+      <button class="startbtn col-auto">Sort</button>
+    </div>
+  </div>
+  
+ <script src="script.js"></script>
+</body>
+</html>
